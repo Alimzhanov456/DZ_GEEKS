@@ -1,0 +1,18 @@
+#test {
+	height: 150px;
+	background: orange;
+	margin: 30px;
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#out {
+	height: 150px;
+	margin: 20px;
+	font-size: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
