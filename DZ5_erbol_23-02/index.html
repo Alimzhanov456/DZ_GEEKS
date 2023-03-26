@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <form id="myForm">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <button type="submit">Отправить</button>
+    </form>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-message"></p>
+      </div>
+    </div>
+
+    <div class="wrapper">
+        <label for="som">Сомы:</label>
+        <input type="text" id="som">
+
+        <label for="usd">Доллары:</label>
+        <input type="text" id="usd">
+
+        <label for="rub">Рубли:</label>
+        <input type="text" id="rub">    
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
